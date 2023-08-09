@@ -39,7 +39,7 @@ const match = (cpu, user) =>{
     return "CPU"
   }
 
-  //For NUll values
+  //For NUll(if you cancel) values
   else if(cpu === "Sissor" && user===null){
     return "CPU"
   }
@@ -51,4 +51,10 @@ const match = (cpu, user) =>{
   }
 }
 let result = match(cpu, user)
-document.write( `CPU:${cpu}<br>USER:${user}<br> <br>The winner is  ${result}`)
+document.write( `CPU:${cpu}<br>USER:${user}<br> The winner is  ${result} `)
+document.writeln(`<span>Refresh to play again</span>`)
+// document.write( `<div>CPU:${cpu}</div><br><div>USER:${user}</div><br><div> The winner is  ${result}</div> `)
+// let a = alert("Refresh to play again")
+// console.log(a)*1
+
+  // document.getElementById("demo").innerHTML ="Please refresh to play again";
