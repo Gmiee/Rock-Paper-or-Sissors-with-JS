@@ -1,20 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0;
 }
-body{
+
+body {
     margin: 10px;
     font-size: 25px;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 600;
 }
+
+footer {
+    display: grid;
+    place-content: center;
+}
+
+.btn {
+    visibility: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    visibility: hidden;
+}
+
+
 @media (max-width:481px) {
-    body{
+    body {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top:75%;
+        margin-top: 75%;
+        flex-direction: column;
     }
+
+    footer {
+        display: none;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        visibility: visible;
+        float: left;
+    }
+span{
+    visibility: visible;
+    display: inline;
+    margin-left: 35px;
+}
+    
+
 }
