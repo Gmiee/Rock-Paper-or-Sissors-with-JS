@@ -43,7 +43,9 @@ span{
     footer {
         display: none;
     }
-
+     p{
+        font-size: 15px;
+    }
     .btn {
         display: flex;
         justify-content: center;
