@@ -1,4 +1,4 @@
-let user = prompt("Enter Rock, Paper or Sissors, please enter first letter capital.")
+let user = prompt("Enter Rock, Paper or Sissors, Full word & Please enter first letter capital.")
 let cpuI = Math.floor(Math.random() * 3)
 let cpu = ["Sissor", "Rock", "Paper"][cpuI]
 
