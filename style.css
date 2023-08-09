@@ -13,9 +13,10 @@ body {
 }
 
 footer {
-    display: grid;
-    place-content: center;
+    display: flex;
+    justify-content: center;
 }
+
 
 .btn {
     visibility: hidden;
