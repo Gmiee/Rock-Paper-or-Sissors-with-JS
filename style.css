@@ -5,6 +5,8 @@
     padding: 0;
 }
 
+
+
 body {
     margin: 10px;
     font-size: 25px;
@@ -44,6 +46,32 @@ header {
 span {
     visibility: hidden;
 }
+.btn02 {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: static;
+    justify-content: center;
+    visibility: visible;
+    position: absolute;
+    left: auto;
+    top: 150px;
+    background-color: white;
+    color: black;
+    font-size: 12px;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px black);
+    padding: 4px;
+}
+
+.btn02:active {
+    filter: drop-shadow(0px 0px 0px black);
+    transform: translateX(4px) translateY(4px);
+}
+.btn02:hover{
+    background-color: black;
+    color: white;
+}
 
 
 @media (max-width:481px) {
@@ -54,6 +82,7 @@ span {
         margin-top: 75%;
         flex-direction: column;
         font-size: 25px;
+        transition: 0.3s ease all;
     }
 
     footer {
@@ -73,6 +102,21 @@ span {
         visibility: visible;
         position: relative;
         top: 150px;
+        background-color: white;
+        color: black;
+        font-size: 12px;
+        border: 1px solid black;
+        filter: drop-shadow(10px 10px 10px black);
+        padding: 4px
+    }
+
+    .btn:active {
+        filter: drop-shadow(0px 0px 0px black);
+        transform: translateX(4px) translateY(4px);
+    }
+    .btn:hover{
+        background-color: black;
+        color: white;
     }
 
     span {
