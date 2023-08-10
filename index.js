@@ -1,4 +1,4 @@
-let user = prompt("Enter Rock, Paper or Sissors, Full word & enter first letter capital.")
+let user = prompt("Enter Rock, Paper or Sissor, Full word & Please enter first letter in capital.")
 let cpuI = Math.floor(Math.random() * 3)
 let cpu = ["Sissor", "Rock", "Paper"][cpuI]
 
@@ -51,8 +51,8 @@ const match = (cpu, user) =>{
   }
 }
 let result = match(cpu, user)
-document.write( `CPU:${cpu}<br>USER:${user}<br> The winner is  ${result} `)
-document.writeln(`<span>Refresh to play again</span>`)
+document.write( `<pre>CPU:${cpu}<br>USER:${user}<br>The winner is  ${result}</pre>`)
+document.writeln(`<span>Refresh to Play Again.</span>`)
 // document.write( `<div>CPU:${cpu}</div><br><div>USER:${user}</div><br><div> The winner is  ${result}</div> `)
 // let a = alert("Refresh to play again")
 // console.log(a)*1
